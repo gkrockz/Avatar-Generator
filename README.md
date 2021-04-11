@@ -7,4 +7,4 @@
 
 ---
 
-> **Note :** Avatars Will Be Generated Only For Valid Name, So Dont Enter Any Other Sensitive Information Over There.
+> **Note :** Avatars Will Be Generated Only For Valid Names.
