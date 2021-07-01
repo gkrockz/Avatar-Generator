@@ -4,6 +4,9 @@ usrinp.addEventListener("keypress", EventForKeyPress);
 function Generate() {
   GenerateAvtr();
 }
+
+// Function which fetches gender based on input 
+
 function GenerateAvtr() {
   var name = document.getElementById("name").value;
   async function fetchGender(gen) {
@@ -15,6 +18,9 @@ function GenerateAvtr() {
       console.error(error);
     }
   }
+  
+  // Function which generates avatar based on the gender returned and name
+  
   async function getGender(gen) {
     const res = await fetchGender(gen);
     document.getElementById(
@@ -25,6 +31,8 @@ function GenerateAvtr() {
   }
   getGender();
 }
+
+// Function for Event (key-press)
 
 function EventForKeyPress(event) {
   if (event.keyCode === 13) {
