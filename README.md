@@ -1,10 +1,11 @@
 <h1 align="center"> Avatar Generator <img src="Img-Src/Readme-Logo.svg" alt="Avatar-Logo" width=70px" height="70px"> </h1>
 
-### 🔁 Functioning Of Avatar Generator :
+### 🔁 How it works:
 
-1. Enter Your Name In The `InputBox` And Then Click `Generate`.
-2. And Then, An Avatar Will Be Generated Based On The Name You Entered.
+1️⃣ Enter Your Name In The `InputBox` And Then Click `Generate`.
+  
+2️⃣ Then the Avatar Will Be Generated Based On The Name You Entered.
 
 ---
 
-> **Note :** Avatars Will Be Generated Only For Valid Names.
+> **Note:** Avatars are generated based on letter sequencing, So make sure that spaces aren't included after your name.
