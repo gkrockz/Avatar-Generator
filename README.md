@@ -3,7 +3,7 @@
 ### 🔁 How it works:
   
 
-1️⃣ Enter your name in the `Input` Feild and then click `Generate`.
+1️⃣ Enter your name in the `Input` field and then click `Generate`.
   
 2️⃣ Then, Avatar will be generated based on the name you entered.
 
