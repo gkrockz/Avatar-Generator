@@ -12,6 +12,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -19,18 +20,19 @@
         <h1 class="header">Avatar Generator</h1>
         <div class="gen">
             <div class="input-wrapper gen ">
-                <input id="name" class="inpbox gen" type="text" placeholder="Your Name">
+                <input id="name" class="inpbox gen" type="text" placeholder="Your name">
                 <button class="generate" onclick="Generate()">Generate</button>
             </div>
         </div>
         <div>
             <div class="avatar zoom">
                 <img src="https://avatars.dicebear.com/api/male/gopi.svg?mood[]=happy" id="avtr" height="200"
-                    width="200" alt="No Avatar Found For This Name">
+                    width="200" alt="No avatar matched for this name">
                 <div class="usrinfo">
-                    <h2 id="usrname">Name : {name}</h2>
-                    <h2 id="gender"> Gender: {gender}</h2>
+                    <h2 id="usrname">Name : Steve</h2>
+                    <h2 id="gender"> Gender: Male</h2>
                 </div>
+                <a href="https://avatars.dicebear.com/api/male/gopi.svg?mood[]=happy" id="imgsrc" class="imgsrc">Download</a>
             </div>
         </div>
     </div>
