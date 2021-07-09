@@ -4,7 +4,7 @@
 body
 {
     font-family:'Noto Sans',Helvetica,'Roboto Mono';
-    background:linear-gradient(197deg, rgba(18,183,213,1) 10%, rgba(252,70,107,1) 85%)
+    background:linear-gradient(197deg, rgba(18,183,213,1) 10%, rgba(252,70,107,1) 85%);
     background-repeat: initial;
 }
 #name
