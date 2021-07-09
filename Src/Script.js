@@ -28,6 +28,7 @@ async function getGender(gen) {
     ).src = `https://avatars.dicebear.com/api/${res.gender}/${name}.svg?mood[]=happy`;
     document.getElementById("usrname").innerHTML = `Name: ${name}`;
     document.getElementById("gender").innerHTML = `Gender: ${res.gender}`;
+    // loading image src for saving it.
     document.getElementById("imgsrc").href=`https://avatars.dicebear.com/api/${res.gender}/${name}.svg?mood[]=happy`;
   }
   getGender();
