@@ -6,6 +6,8 @@
 1️⃣ Enter your name in the `Input` field and then click `Generate`.
   
 2️⃣ Then, Avatar will be generated based on the name you entered.
+ 
+3️⃣ You can save the image in svg format with the href provided, below the image.    
 
 ---
 
