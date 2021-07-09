@@ -21,13 +21,14 @@ function GenerateAvtr() {
   
   // Function which generates avatar based on the gender returned and name
   
-  async function getGender(gen) {
+async function getGender(gen) {
     const res = await fetchGender(gen);
     document.getElementById(
       "avtr"
     ).src = `https://avatars.dicebear.com/api/${res.gender}/${name}.svg?mood[]=happy`;
     document.getElementById("usrname").innerHTML = `Name: ${name}`;
     document.getElementById("gender").innerHTML = `Gender: ${res.gender}`;
+    document.getElementById("imgsrc").href=`https://avatars.dicebear.com/api/${res.gender}/${name}.svg?mood[]=happy`;
   }
   getGender();
 }
